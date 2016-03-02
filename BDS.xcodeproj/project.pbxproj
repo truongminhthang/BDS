@@ -8,22 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		FF88FC681C868C5500335D11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC671C868C5500335D11 /* AppDelegate.swift */; };
-		FF88FC6A1C868C5500335D11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC691C868C5500335D11 /* ViewController.swift */; };
-		FF88FC6D1C868C5500335D11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF88FC6B1C868C5500335D11 /* Main.storyboard */; };
+		FF88FC6A1C868C5500335D11 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC691C868C5500335D11 /* FilterViewController.swift */; };
 		FF88FC701C868C5500335D11 /* BDS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC6E1C868C5500335D11 /* BDS.xcdatamodeld */; };
 		FF88FC721C868C5500335D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF88FC711C868C5500335D11 /* Assets.xcassets */; };
 		FF88FC751C868C5500335D11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF88FC731C868C5500335D11 /* LaunchScreen.storyboard */; };
+		FF88FC7D1C868C6400335D11 /* MTLib in Resources */ = {isa = PBXBuildFile; fileRef = FF88FC7C1C868C6400335D11 /* MTLib */; };
+		FF88FC801C868CD100335D11 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC7F1C868CD100335D11 /* BaseViewController.swift */; };
+		FF88FC821C868CE500335D11 /* MTAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC811C868CE500335D11 /* MTAutoLayout.swift */; };
+		FF88FC841C868CEE00335D11 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC831C868CEE00335D11 /* AppSettings.swift */; };
+		FF88FC861C868CF900335D11 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC851C868CF900335D11 /* StringExtension.swift */; };
+		FF88FC881C86907000335D11 /* UserDefaultConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC871C86907000335D11 /* UserDefaultConverter.swift */; };
+		FF88FC8A1C86916000335D11 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC891C86916000335D11 /* UIColorExtension.swift */; };
+		FF88FC8C1C86966300335D11 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC8B1C86966300335D11 /* UIViewExtension.swift */; };
+		FF88FC8E1C86A59100335D11 /* EstatePopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC8D1C86A59100335D11 /* EstatePopView.swift */; };
+		FF88FC901C86B90300335D11 /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC8F1C86B90300335D11 /* ActionSheet.swift */; };
+		FF88FC921C86B99400335D11 /* MTGetCGRectFromView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC911C86B99400335D11 /* MTGetCGRectFromView.swift */; };
+		FF88FC941C86B9B100335D11 /* MTManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC931C86B9B100335D11 /* MTManualLayout.swift */; };
+		FF88FC961C86BE6000335D11 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF88FC951C86BE6000335D11 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF88FC641C868C5500335D11 /* BDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF88FC671C868C5500335D11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF88FC691C868C5500335D11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FF88FC6C1C868C5500335D11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF88FC691C868C5500335D11 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		FF88FC6F1C868C5500335D11 /* BDS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BDS.xcdatamodel; sourceTree = "<group>"; };
 		FF88FC711C868C5500335D11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF88FC741C868C5500335D11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF88FC761C868C5500335D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF88FC7C1C868C6400335D11 /* MTLib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MTLib; path = ../../../Desktop/MTLib; sourceTree = "<group>"; };
+		FF88FC7F1C868CD100335D11 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = ../../../Desktop/MTLib/BaseViewController.swift; sourceTree = "<group>"; };
+		FF88FC811C868CE500335D11 /* MTAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MTAutoLayout.swift; path = ../../../Desktop/MTLib/MTAutoLayout.swift; sourceTree = "<group>"; };
+		FF88FC831C868CEE00335D11 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppSettings.swift; path = ../../../Desktop/MTLib/AppSettings.swift; sourceTree = "<group>"; };
+		FF88FC851C868CF900335D11 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = ../../../Desktop/MTLib/StringExtension.swift; sourceTree = "<group>"; };
+		FF88FC871C86907000335D11 /* UserDefaultConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDefaultConverter.swift; path = ../../../Desktop/MTLib/UserDefaultConverter.swift; sourceTree = "<group>"; };
+		FF88FC891C86916000335D11 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ../../../Desktop/MTLib/UIColorExtension.swift; sourceTree = "<group>"; };
+		FF88FC8B1C86966300335D11 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = ../../../Desktop/MTLib/UIViewExtension.swift; sourceTree = "<group>"; };
+		FF88FC8D1C86A59100335D11 /* EstatePopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstatePopView.swift; sourceTree = "<group>"; };
+		FF88FC8F1C86B90300335D11 /* ActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActionSheet.swift; path = ../../../Desktop/MTLib/ActionSheet.swift; sourceTree = "<group>"; };
+		FF88FC911C86B99400335D11 /* MTGetCGRectFromView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MTGetCGRectFromView.swift; path = ../../../Desktop/MTLib/MTGetCGRectFromView.swift; sourceTree = "<group>"; };
+		FF88FC931C86B9B100335D11 /* MTManualLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MTManualLayout.swift; path = ../../../Desktop/MTLib/MTManualLayout.swift; sourceTree = "<group>"; };
+		FF88FC951C86BE6000335D11 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,35 @@
 		FF88FC661C868C5500335D11 /* BDS */ = {
 			isa = PBXGroup;
 			children = (
+				FF88FC7C1C868C6400335D11 /* MTLib */,
+				FF88FC7E1C868CA700335D11 /* Lib */,
+				FF88FC691C868C5500335D11 /* FilterViewController.swift */,
+				FF88FC951C86BE6000335D11 /* DetailViewController.swift */,
+				FF88FC8D1C86A59100335D11 /* EstatePopView.swift */,
 				FF88FC671C868C5500335D11 /* AppDelegate.swift */,
-				FF88FC691C868C5500335D11 /* ViewController.swift */,
-				FF88FC6B1C868C5500335D11 /* Main.storyboard */,
 				FF88FC711C868C5500335D11 /* Assets.xcassets */,
 				FF88FC731C868C5500335D11 /* LaunchScreen.storyboard */,
 				FF88FC761C868C5500335D11 /* Info.plist */,
 				FF88FC6E1C868C5500335D11 /* BDS.xcdatamodeld */,
 			);
 			path = BDS;
+			sourceTree = "<group>";
+		};
+		FF88FC7E1C868CA700335D11 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				FF88FC931C86B9B100335D11 /* MTManualLayout.swift */,
+				FF88FC911C86B99400335D11 /* MTGetCGRectFromView.swift */,
+				FF88FC8B1C86966300335D11 /* UIViewExtension.swift */,
+				FF88FC891C86916000335D11 /* UIColorExtension.swift */,
+				FF88FC871C86907000335D11 /* UserDefaultConverter.swift */,
+				FF88FC851C868CF900335D11 /* StringExtension.swift */,
+				FF88FC831C868CEE00335D11 /* AppSettings.swift */,
+				FF88FC811C868CE500335D11 /* MTAutoLayout.swift */,
+				FF88FC8F1C86B90300335D11 /* ActionSheet.swift */,
+				FF88FC7F1C868CD100335D11 /* BaseViewController.swift */,
+			);
+			name = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +143,7 @@
 				TargetAttributes = {
 					FF88FC631C868C5500335D11 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8Y23SWEH85;
 					};
 				};
 			};
@@ -126,8 +171,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF88FC751C868C5500335D11 /* LaunchScreen.storyboard in Resources */,
+				FF88FC7D1C868C6400335D11 /* MTLib in Resources */,
 				FF88FC721C868C5500335D11 /* Assets.xcassets in Resources */,
-				FF88FC6D1C868C5500335D11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +183,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF88FC961C86BE6000335D11 /* DetailViewController.swift in Sources */,
+				FF88FC8C1C86966300335D11 /* UIViewExtension.swift in Sources */,
+				FF88FC8E1C86A59100335D11 /* EstatePopView.swift in Sources */,
 				FF88FC701C868C5500335D11 /* BDS.xcdatamodeld in Sources */,
-				FF88FC6A1C868C5500335D11 /* ViewController.swift in Sources */,
+				FF88FC881C86907000335D11 /* UserDefaultConverter.swift in Sources */,
+				FF88FC921C86B99400335D11 /* MTGetCGRectFromView.swift in Sources */,
+				FF88FC861C868CF900335D11 /* StringExtension.swift in Sources */,
+				FF88FC801C868CD100335D11 /* BaseViewController.swift in Sources */,
+				FF88FC841C868CEE00335D11 /* AppSettings.swift in Sources */,
+				FF88FC941C86B9B100335D11 /* MTManualLayout.swift in Sources */,
+				FF88FC901C86B90300335D11 /* ActionSheet.swift in Sources */,
+				FF88FC8A1C86916000335D11 /* UIColorExtension.swift in Sources */,
+				FF88FC6A1C868C5500335D11 /* FilterViewController.swift in Sources */,
 				FF88FC681C868C5500335D11 /* AppDelegate.swift in Sources */,
+				FF88FC821C868CE500335D11 /* MTAutoLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FF88FC6B1C868C5500335D11 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FF88FC6C1C868C5500335D11 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FF88FC731C868C5500335D11 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -251,10 +300,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BDS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = truongThang.BDS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +314,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BDS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = truongThang.BDS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
